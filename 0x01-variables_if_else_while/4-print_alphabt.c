@@ -1,19 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0
+ *main-program entry point.
+ *Return:0 if no error, non zero if error.
  */
 int main(void)
 {
-	char low;
+	char i;
 
-	for (low = 'a'; low <= 'z'; low++)
-		if (low == 'q' || low == 'e')
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == 'e' || i == 'q')
 			continue;
-				putchar(low);
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
