@@ -2,12 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the opcodes of its own main function.
+ * main - prints its own opcodes
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * @argc: The number of arguments provided (including program name).
- * @argv: An array of strings containing the arguments.
- *
- * Return: 0 on success, 1 for incorrect number of arguments, 2 for negative byte count.
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
